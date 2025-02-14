@@ -1,6 +1,6 @@
 # BlueROV2 ROS 2
 
-This repository contains the robot description and necessary launch files to describe and simulate the BlueROV2 (unmanned underwater vehicle) with [Gazebo](https://gazebosim.org/home) and its [hydrodynamics plugins](https://gazebosim.org/api/gazebo/6.1/underwater_vehicles.html) under ROS 2.
+This repository contains the robot description and necessary launch files to describe and simulate the BlueROV2 (unmanned underwater vehicle) with [Gazebo](https://gazebosim.org/home) and its [hydrodynamics plugins](https://gazebosim.org/api/sim/7/classgz_1_1sim_1_1systems_1_1Hydrodynamics.html) under ROS 2.
 
 
 ## Requirements
