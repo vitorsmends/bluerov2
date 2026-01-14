@@ -30,7 +30,7 @@ RUN locale-gen en_US en_US.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LC_ALL=en_US.UTF-8
 
-# Ignition Gazebo Fortress (matching host)
+# Ignition Gazebo Fortress
 RUN apt-get update && apt-get install -y \
     ignition-fortress \
     ros-humble-ros-ign-gazebo \
@@ -52,12 +52,12 @@ RUN mkdir -p ${ROS_WS}/src
 WORKDIR ${ROS_WS}
 
 
-# Copy local packages (already in this repo)
+# Copy local packages
 COPY bluerov2_description ${ROS_WS}/src/bluerov2_description
 COPY bluerov2_control     ${ROS_WS}/src/bluerov2_control
 
 
-# External dependencies (order matters)
+# External dependencies
 RUN cd src && \
     git clone https://github.com/CentraleNantesROV/thruster_manager.git && \
     git clone https://github.com/CentraleNantesROV/auv_control.git && \
