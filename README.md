@@ -50,7 +50,7 @@ reproducible ROS 2 + Gazebo environment.
 ### Requirements (Docker)
 
 - Linux host
-- Docker Engine ([How to Install](https://docs.docker.com/engine/install/), recommend to use the option: Install using the apt repository)
+- Docker Engine ([How to Install](https://docs.docker.com/engine/install/), it is recommended to use the option "Install using the APT repository")
 - Optional: NVIDIA GPU with NVIDIA Container Toolkit (for GPU acceleration)
 
 ---
