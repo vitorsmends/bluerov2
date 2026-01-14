@@ -98,6 +98,23 @@
             <publish_visual_pose>false</publish_visual_pose>
             <publish_nested_model_pose>true</publish_nested_model_pose>
         </plugin>
+
+        <plugin
+            filename="libjonswap_wave_plugin.so"
+            name="marine::waves::JONSWAPWaveSystem">
+
+            <namespace>bluerov2</namespace>
+
+            <Hs>6.0</Hs>
+            <Tp>11.1</Tp>
+            <gamma>3.24</gamma>
+            <num_components>128</num_components>
+
+            <wave_dir_x>1.0</wave_dir_x>
+            <wave_dir_y>0.0</wave_dir_y>
+
+        </plugin>
+
     </gazebo>
 </xacro:if>
 

@@ -11,6 +11,13 @@
         
     <link_name>${ns}/base_link</link_name>
 
+    <!-- >>> ADICIONE ISTO <<< -->
+    <!-- Namespace da corrente -->
+    <namespace>${ns}</namespace>
+
+    <!-- Corrente inicial (m/s) -->
+    <default_current>0 0 0</default_current>
+    <!-- >>> FIM <<< -->
         
     <!-- BlueROV2 heavy values from "6-DoF Modelling and Control of a Remotely Operated Vehicle"
         Wu, Master thesis, Flinder University, 2018  -->
